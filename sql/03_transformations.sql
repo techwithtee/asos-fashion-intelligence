@@ -1,0 +1,11 @@
+-- 03_transformations.sql
+-- Build clean / analytical tables and views from the raw data.
+
+-- Example:
+-- CREATE VIEW vw_products_clean AS
+-- SELECT
+--     product_id,
+--     LTRIM(RTRIM(name)) AS name,
+--     price
+-- FROM products_raw
+-- WHERE price IS NOT NULL;
